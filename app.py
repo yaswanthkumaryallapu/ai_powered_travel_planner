@@ -6,7 +6,7 @@ from langchain_google_genai import GoogleGenerativeAI
 from PIL import Image
 
 # ✅ Set Up API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAhz0YH_o4gaSSkC0L1Szib2N59tPzBUsE"
+os.environ["GOOGLE_API_KEY"] = "API_Key_Here"
 
 # ✅ Load Banner Image
 banner = Image.open("banner.jpg")
